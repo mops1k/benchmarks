@@ -1,0 +1,31 @@
+{
+    "name": "mops1k/benchmarks",
+    "description": "benchmarks storage for phpbench",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+        "ext-igbinary": "*",
+        "ext-msgpack": "*",
+        "ext-json": "*",
+        "phpbench/phpbench": "@dev"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "mops1k",
+            "email": "bednyj.mops@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}

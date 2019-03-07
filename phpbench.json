@@ -1,0 +1,13 @@
+{
+  "bootstrap": "vendor/autoload.php",
+  "path": "benchmarks",
+  "php_config": {
+    "memory_limit": "1G"
+  },
+  "reports": {
+    "all": {
+      "generator": "composite",
+      "reports": ["env", "default", "aggregate" ]
+    }
+  }
+}
