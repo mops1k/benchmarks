@@ -4,8 +4,6 @@
     "type": "project",
     "require": {
         "php": "^7.2",
-        "ext-igbinary": "*",
-        "ext-msgpack": "*",
         "ext-json": "*",
         "phpbench/phpbench": "@dev"
     },
